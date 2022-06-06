@@ -1,0 +1,15 @@
+#!build
+default:
+	nobuild
+resource_readme.txt
+	documentation
+memory.ld
+	linker_file
+standalone_config.ld
+	linker_file
+standalone_ram.ld
+	linker_file
+standalone_romcopy.ld
+	linker_file
+standalone_romrun.ld
+	linker_file
